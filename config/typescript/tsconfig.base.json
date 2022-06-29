@@ -1,0 +1,9 @@
+{
+  "extends": "@shopify/typescript-configs/library.json",
+  "compilerOptions": {
+    "composite": true,
+    "emitDeclarationOnly": true,
+    "jsx": "react-jsx",
+    "typeRoots": ["../../node_modules/@types", "./typings"]
+  }
+}
